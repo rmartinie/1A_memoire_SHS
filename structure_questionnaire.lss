@@ -1,0 +1,1275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document>
+ <LimeSurveyDocType>Survey</LimeSurveyDocType>
+ <DBVersion>263</DBVersion>
+ <languages>
+  <language>fr</language>
+ </languages>
+ <answers>
+  <fields>
+   <fieldname>qid</fieldname>
+   <fieldname>code</fieldname>
+   <fieldname>answer</fieldname>
+   <fieldname>sortorder</fieldname>
+   <fieldname>assessment_value</fieldname>
+   <fieldname>language</fieldname>
+   <fieldname>scale_id</fieldname>
+  </fields>
+  <rows>
+   <row>
+    <qid><![CDATA[12392]]></qid>
+    <code><![CDATA[A1]]></code>
+    <answer><![CDATA[Femme]]></answer>
+    <sortorder><![CDATA[1]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <language><![CDATA[fr]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[12392]]></qid>
+    <code><![CDATA[A2]]></code>
+    <answer><![CDATA[Homme]]></answer>
+    <sortorder><![CDATA[2]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <language><![CDATA[fr]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[12392]]></qid>
+    <code><![CDATA[A3]]></code>
+    <answer><![CDATA[Autre / Préfère ne pas répondre]]></answer>
+    <sortorder><![CDATA[3]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <language><![CDATA[fr]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[12393]]></qid>
+    <code><![CDATA[A1]]></code>
+    <answer><![CDATA[Agriculteurs exploitants / Agricultrices exploitantes]]></answer>
+    <sortorder><![CDATA[1]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <language><![CDATA[fr]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[12393]]></qid>
+    <code><![CDATA[A2]]></code>
+    <answer><![CDATA[Artisans / Artisanes, commerçants / commerçantes et chefs / cheffes d’entreprise]]></answer>
+    <sortorder><![CDATA[2]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <language><![CDATA[fr]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[12393]]></qid>
+    <code><![CDATA[A3]]></code>
+    <answer><![CDATA[Cadres et professions intellectuelles supérieures]]></answer>
+    <sortorder><![CDATA[3]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <language><![CDATA[fr]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[12393]]></qid>
+    <code><![CDATA[A4]]></code>
+    <answer><![CDATA[Professions intermédiaires]]></answer>
+    <sortorder><![CDATA[4]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <language><![CDATA[fr]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[12393]]></qid>
+    <code><![CDATA[A5]]></code>
+    <answer><![CDATA[Employé(e)s]]></answer>
+    <sortorder><![CDATA[5]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <language><![CDATA[fr]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[12393]]></qid>
+    <code><![CDATA[A6]]></code>
+    <answer><![CDATA[Ouvriers / Ouvrières]]></answer>
+    <sortorder><![CDATA[6]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <language><![CDATA[fr]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[12393]]></qid>
+    <code><![CDATA[A7]]></code>
+    <answer><![CDATA[Retraité(e)s]]></answer>
+    <sortorder><![CDATA[7]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <language><![CDATA[fr]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[12393]]></qid>
+    <code><![CDATA[A8]]></code>
+    <answer><![CDATA[Etudiant(e)s]]></answer>
+    <sortorder><![CDATA[8]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <language><![CDATA[fr]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[12394]]></qid>
+    <code><![CDATA[A1]]></code>
+    <answer><![CDATA[Sans diplôme]]></answer>
+    <sortorder><![CDATA[1]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <language><![CDATA[fr]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[12394]]></qid>
+    <code><![CDATA[A2]]></code>
+    <answer><![CDATA[CAP, BEP]]></answer>
+    <sortorder><![CDATA[2]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <language><![CDATA[fr]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[12394]]></qid>
+    <code><![CDATA[A3]]></code>
+    <answer><![CDATA[Bac (Baccalauréat, DAEU, Capacité en droit, DSP)]]></answer>
+    <sortorder><![CDATA[3]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <language><![CDATA[fr]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[12394]]></qid>
+    <code><![CDATA[A4]]></code>
+    <answer><![CDATA[Bac + 2 (DEUG, BTS, DUT, DEUST)]]></answer>
+    <sortorder><![CDATA[4]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <language><![CDATA[fr]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[12394]]></qid>
+    <code><![CDATA[A5]]></code>
+    <answer><![CDATA[Bac + 3 (Licence, Licence LMD, licence professionnelle, BUT)]]></answer>
+    <sortorder><![CDATA[5]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <language><![CDATA[fr]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[12394]]></qid>
+    <code><![CDATA[A6]]></code>
+    <answer><![CDATA[Bac + 4 (Maîtrise)]]></answer>
+    <sortorder><![CDATA[6]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <language><![CDATA[fr]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[12394]]></qid>
+    <code><![CDATA[A7]]></code>
+    <answer><![CDATA[Bac + 5 (Master, DEA, DESS, diplôme d'ingénieur)]]></answer>
+    <sortorder><![CDATA[7]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <language><![CDATA[fr]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[12394]]></qid>
+    <code><![CDATA[A8]]></code>
+    <answer><![CDATA[Bac + 8 (Doctorat, habilitation à diriger des recherches)]]></answer>
+    <sortorder><![CDATA[8]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <language><![CDATA[fr]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[12396]]></qid>
+    <code><![CDATA[A1]]></code>
+    <answer><![CDATA[Village : moins de 2 000 habitants]]></answer>
+    <sortorder><![CDATA[1]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <language><![CDATA[fr]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[12396]]></qid>
+    <code><![CDATA[A2]]></code>
+    <answer><![CDATA[Bourg : de 2 000 à 5 000 habitants]]></answer>
+    <sortorder><![CDATA[2]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <language><![CDATA[fr]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[12396]]></qid>
+    <code><![CDATA[A3]]></code>
+    <answer><![CDATA[Petite ville : de 5 000 à 20 000 habitants]]></answer>
+    <sortorder><![CDATA[3]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <language><![CDATA[fr]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[12396]]></qid>
+    <code><![CDATA[A4]]></code>
+    <answer><![CDATA[Ville moyenne : de 20 000 à 50 000 habitants]]></answer>
+    <sortorder><![CDATA[4]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <language><![CDATA[fr]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[12396]]></qid>
+    <code><![CDATA[A5]]></code>
+    <answer><![CDATA[Grande ville : de 50 000 à 200 000 habitants]]></answer>
+    <sortorder><![CDATA[5]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <language><![CDATA[fr]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[12396]]></qid>
+    <code><![CDATA[A6]]></code>
+    <answer><![CDATA[Métropole : plus de 200 000 habitants]]></answer>
+    <sortorder><![CDATA[6]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <language><![CDATA[fr]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[12396]]></qid>
+    <code><![CDATA[A7]]></code>
+    <answer><![CDATA[Je ne sais pas]]></answer>
+    <sortorder><![CDATA[7]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <language><![CDATA[fr]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[12407]]></qid>
+    <code><![CDATA[1]]></code>
+    <answer><![CDATA[- de 15 000€]]></answer>
+    <sortorder><![CDATA[1]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <language><![CDATA[fr]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[12407]]></qid>
+    <code><![CDATA[2]]></code>
+    <answer><![CDATA[15 000 - 30 000€]]></answer>
+    <sortorder><![CDATA[2]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <language><![CDATA[fr]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[12407]]></qid>
+    <code><![CDATA[3]]></code>
+    <answer><![CDATA[30 000 - 60 000€]]></answer>
+    <sortorder><![CDATA[3]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <language><![CDATA[fr]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[12407]]></qid>
+    <code><![CDATA[4]]></code>
+    <answer><![CDATA[60 000 - 90 000€]]></answer>
+    <sortorder><![CDATA[4]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <language><![CDATA[fr]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[12407]]></qid>
+    <code><![CDATA[5]]></code>
+    <answer><![CDATA[+ de 90 000 €]]></answer>
+    <sortorder><![CDATA[5]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <language><![CDATA[fr]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+  </rows>
+ </answers>
+ <defaultvalues>
+  <fields>
+   <fieldname>qid</fieldname>
+   <fieldname>scale_id</fieldname>
+   <fieldname>sqid</fieldname>
+   <fieldname>language</fieldname>
+   <fieldname>specialtype</fieldname>
+   <fieldname>defaultvalue</fieldname>
+  </fields>
+  <rows>
+   <row>
+    <qid><![CDATA[12390]]></qid>
+    <scale_id><![CDATA[0]]></scale_id>
+    <sqid><![CDATA[12403]]></sqid>
+    <language><![CDATA[fr]]></language>
+    <specialtype/>
+    <defaultvalue><![CDATA[50]]></defaultvalue>
+   </row>
+   <row>
+    <qid><![CDATA[12389]]></qid>
+    <scale_id><![CDATA[0]]></scale_id>
+    <sqid><![CDATA[12399]]></sqid>
+    <language><![CDATA[fr]]></language>
+    <specialtype/>
+    <defaultvalue><![CDATA[50]]></defaultvalue>
+   </row>
+   <row>
+    <qid><![CDATA[12389]]></qid>
+    <scale_id><![CDATA[0]]></scale_id>
+    <sqid><![CDATA[12400]]></sqid>
+    <language><![CDATA[fr]]></language>
+    <specialtype/>
+    <defaultvalue><![CDATA[50]]></defaultvalue>
+   </row>
+   <row>
+    <qid><![CDATA[12389]]></qid>
+    <scale_id><![CDATA[0]]></scale_id>
+    <sqid><![CDATA[12401]]></sqid>
+    <language><![CDATA[fr]]></language>
+    <specialtype/>
+    <defaultvalue><![CDATA[50]]></defaultvalue>
+   </row>
+   <row>
+    <qid><![CDATA[12390]]></qid>
+    <scale_id><![CDATA[0]]></scale_id>
+    <sqid><![CDATA[12402]]></sqid>
+    <language><![CDATA[fr]]></language>
+    <specialtype/>
+    <defaultvalue><![CDATA[50]]></defaultvalue>
+   </row>
+   <row>
+    <qid><![CDATA[12390]]></qid>
+    <scale_id><![CDATA[0]]></scale_id>
+    <sqid><![CDATA[12404]]></sqid>
+    <language><![CDATA[fr]]></language>
+    <specialtype/>
+    <defaultvalue><![CDATA[50]]></defaultvalue>
+   </row>
+  </rows>
+ </defaultvalues>
+ <groups>
+  <fields>
+   <fieldname>gid</fieldname>
+   <fieldname>sid</fieldname>
+   <fieldname>group_name</fieldname>
+   <fieldname>group_order</fieldname>
+   <fieldname>description</fieldname>
+   <fieldname>language</fieldname>
+   <fieldname>randomization_group</fieldname>
+   <fieldname>grelevance</fieldname>
+  </fields>
+  <rows>
+   <row>
+    <gid><![CDATA[1259]]></gid>
+    <sid><![CDATA[914436]]></sid>
+    <group_name><![CDATA[Scénario]]></group_name>
+    <group_order><![CDATA[1]]></group_order>
+    <description/>
+    <language><![CDATA[fr]]></language>
+    <randomization_group><![CDATA[course]]></randomization_group>
+    <grelevance><![CDATA[1]]></grelevance>
+   </row>
+   <row>
+    <gid><![CDATA[1260]]></gid>
+    <sid><![CDATA[914436]]></sid>
+    <group_name><![CDATA[randomisation]]></group_name>
+    <group_order><![CDATA[0]]></group_order>
+    <description/>
+    <language><![CDATA[fr]]></language>
+    <randomization_group/>
+    <grelevance><![CDATA[1]]></grelevance>
+   </row>
+   <row>
+    <gid><![CDATA[1261]]></gid>
+    <sid><![CDATA[914436]]></sid>
+    <group_name><![CDATA[Scénario]]></group_name>
+    <group_order><![CDATA[2]]></group_order>
+    <description/>
+    <language><![CDATA[fr]]></language>
+    <randomization_group><![CDATA[marche]]></randomization_group>
+    <grelevance><![CDATA[1]]></grelevance>
+   </row>
+   <row>
+    <gid><![CDATA[1262]]></gid>
+    <sid><![CDATA[914436]]></sid>
+    <group_name><![CDATA[Variables Sociologiques]]></group_name>
+    <group_order><![CDATA[3]]></group_order>
+    <description><![CDATA[<div>
+<div>
+<div id="message-content-1322572393314648174">Vous êtes presque arrivé(e) au bout du questionnaire ! Il ne reste que quelques questions pour recueillir des informations générales. Ces données, entièrement anonymes, seront analysées uniquement dans le cadre de ce mémoire universitaire et ne permettront pas de vous identifier.</div>
+</div>
+</div>
+]]></description>
+    <language><![CDATA[fr]]></language>
+    <randomization_group/>
+    <grelevance><![CDATA[1]]></grelevance>
+   </row>
+  </rows>
+ </groups>
+ <questions>
+  <fields>
+   <fieldname>qid</fieldname>
+   <fieldname>parent_qid</fieldname>
+   <fieldname>sid</fieldname>
+   <fieldname>gid</fieldname>
+   <fieldname>type</fieldname>
+   <fieldname>title</fieldname>
+   <fieldname>question</fieldname>
+   <fieldname>preg</fieldname>
+   <fieldname>help</fieldname>
+   <fieldname>other</fieldname>
+   <fieldname>mandatory</fieldname>
+   <fieldname>question_order</fieldname>
+   <fieldname>language</fieldname>
+   <fieldname>scale_id</fieldname>
+   <fieldname>same_default</fieldname>
+   <fieldname>relevance</fieldname>
+   <fieldname>modulename</fieldname>
+  </fields>
+  <rows>
+   <row>
+    <qid><![CDATA[12388]]></qid>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <sid><![CDATA[914436]]></sid>
+    <gid><![CDATA[1260]]></gid>
+    <type><![CDATA[*]]></type>
+    <title><![CDATA[random]]></title>
+    <question><![CDATA[<p>test</p>
+
+<p> </p>
+
+<p> </p>
+]]></question>
+    <preg/>
+    <help/>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[Y]]></mandatory>
+    <question_order><![CDATA[0]]></question_order>
+    <language><![CDATA[fr]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename/>
+   </row>
+   <row>
+    <qid><![CDATA[12389]]></qid>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <sid><![CDATA[914436]]></sid>
+    <gid><![CDATA[1259]]></gid>
+    <type><![CDATA[K]]></type>
+    <title><![CDATA[Course]]></title>
+    <question><![CDATA[<p style="text-align:justify;">Dans les 3 questions suivantes, vous serez confronté(e) à des situations hypothétiques impliquant une activité physique régulière. Imaginez que ces situations s’appliquent à vous et répondez en évaluant les chances que vous vous engagiez dans chaque activité, comme si vous étiez réellement confronté(e) à ces choix. Supposez que vous n’êtes pas limité(e) financièrement, matériellement, ou physiquement dans votre capacité à participer à ces activités.</p>
+
+<p style="text-align:justify;"><strong>Plus le curseur est vers la gauche, moins vous êtes sûr(e) de vous engager. Plus le curseur est vers la droite, plus vous êtes sûr(e) de vous engager. </strong></p>
+
+<p style="text-align:justify;"> </p>
+]]></question>
+    <preg/>
+    <help/>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[N]]></mandatory>
+    <question_order><![CDATA[0]]></question_order>
+    <language><![CDATA[fr]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[random == 0]]></relevance>
+    <modulename/>
+   </row>
+   <row>
+    <qid><![CDATA[12390]]></qid>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <sid><![CDATA[914436]]></sid>
+    <gid><![CDATA[1261]]></gid>
+    <type><![CDATA[K]]></type>
+    <title><![CDATA[Marche]]></title>
+    <question><![CDATA[<p style="text-align:justify;">Dans les 3 questions suivantes, vous serez confronté(e) à des situations hypothétiques impliquant une activité physique régulière. Imaginez que ces situations s’appliquent à vous et répondez en évaluant les chances que vous vous engagiez dans chaque activité, comme si vous étiez réellement confronté(e) à ces choix. Supposez que vous n’êtes pas limité(e) financièrement, matériellement, ou physiquement dans votre capacité à participer à ces activités.</p>
+
+<p style="text-align:justify;"><strong>Plus le curseur est vers la gauche, moins vous êtes sûr(e) de vous engager. Plus le curseur est vers la droite, plus vous êtes sûr(e) de vous engager. </strong></p>
+]]></question>
+    <preg/>
+    <help/>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[N]]></mandatory>
+    <question_order><![CDATA[0]]></question_order>
+    <language><![CDATA[fr]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[random == 1]]></relevance>
+    <modulename/>
+   </row>
+   <row>
+    <qid><![CDATA[12391]]></qid>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <sid><![CDATA[914436]]></sid>
+    <gid><![CDATA[1262]]></gid>
+    <type><![CDATA[N]]></type>
+    <title><![CDATA[age]]></title>
+    <question><![CDATA[Quel est votre âge ?]]></question>
+    <preg/>
+    <help/>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[Y]]></mandatory>
+    <question_order><![CDATA[0]]></question_order>
+    <language><![CDATA[fr]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename/>
+   </row>
+   <row>
+    <qid><![CDATA[12392]]></qid>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <sid><![CDATA[914436]]></sid>
+    <gid><![CDATA[1262]]></gid>
+    <type><![CDATA[L]]></type>
+    <title><![CDATA[Genre]]></title>
+    <question><![CDATA[Comment vous identifiez-vous ?]]></question>
+    <preg/>
+    <help/>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[Y]]></mandatory>
+    <question_order><![CDATA[1]]></question_order>
+    <language><![CDATA[fr]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename/>
+   </row>
+   <row>
+    <qid><![CDATA[12393]]></qid>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <sid><![CDATA[914436]]></sid>
+    <gid><![CDATA[1262]]></gid>
+    <type><![CDATA[!]]></type>
+    <title><![CDATA[CSP]]></title>
+    <question><![CDATA[<p>A quelle catégorie socio-professionnelle appartenez-vous ?</p>
+]]></question>
+    <preg/>
+    <help/>
+    <other><![CDATA[Y]]></other>
+    <mandatory><![CDATA[Y]]></mandatory>
+    <question_order><![CDATA[2]]></question_order>
+    <language><![CDATA[fr]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+   </row>
+   <row>
+    <qid><![CDATA[12394]]></qid>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <sid><![CDATA[914436]]></sid>
+    <gid><![CDATA[1262]]></gid>
+    <type><![CDATA[!]]></type>
+    <title><![CDATA[Diplome]]></title>
+    <question><![CDATA[Quel est votre niveau de diplome ?]]></question>
+    <preg/>
+    <help/>
+    <other><![CDATA[Y]]></other>
+    <mandatory><![CDATA[Y]]></mandatory>
+    <question_order><![CDATA[3]]></question_order>
+    <language><![CDATA[fr]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+   </row>
+   <row>
+    <qid><![CDATA[12395]]></qid>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <sid><![CDATA[914436]]></sid>
+    <gid><![CDATA[1262]]></gid>
+    <type><![CDATA[K]]></type>
+    <title><![CDATA[EnvCS]]></title>
+    <question><![CDATA[<p style="text-align:justify;">Selon vous, quelle proportion de vos proches (amis, famille) pratique régulièrement une activité physique (au moins une fois par semaine) ?</p>
+
+<p style="text-align:justify;"><strong>Plus le curseur est vers la gauche, moins vos proches pratiquent. Plus le curseur est vers la droite, plus vos proches pratiquent.</strong></p>
+]]></question>
+    <preg/>
+    <help/>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[N]]></mandatory>
+    <question_order><![CDATA[5]]></question_order>
+    <language><![CDATA[fr]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename/>
+   </row>
+   <row>
+    <qid><![CDATA[12396]]></qid>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <sid><![CDATA[914436]]></sid>
+    <gid><![CDATA[1262]]></gid>
+    <type><![CDATA[!]]></type>
+    <title><![CDATA[EnvPObj]]></title>
+    <question><![CDATA[Quelle est la taille de la commune dans laquelle vous habitez ?]]></question>
+    <preg/>
+    <help/>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[Y]]></mandatory>
+    <question_order><![CDATA[7]]></question_order>
+    <language><![CDATA[fr]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename/>
+   </row>
+   <row>
+    <qid><![CDATA[12397]]></qid>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <sid><![CDATA[914436]]></sid>
+    <gid><![CDATA[1262]]></gid>
+    <type><![CDATA[K]]></type>
+    <title><![CDATA[EnvPSubj]]></title>
+    <question><![CDATA[<p style="text-align:justify;">Dans quelle mesure l’accessibilité des infrastructures près de chez vous (parcs, gymnases, pistes cyclables, etc.) vous permet-elle de pratiquer une activité physique régulière ?</p>
+
+<p style="text-align:justify;"><strong>Plus le curseur est vers la gauche, plus vous êtes limité(e)s. Plus le curseur est vers la droite, moins vous êtes limité(e)s.</strong></p>
+]]></question>
+    <preg/>
+    <help/>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[N]]></mandatory>
+    <question_order><![CDATA[6]]></question_order>
+    <language><![CDATA[fr]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename/>
+   </row>
+   <row>
+    <qid><![CDATA[12398]]></qid>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <sid><![CDATA[914436]]></sid>
+    <gid><![CDATA[1262]]></gid>
+    <type><![CDATA[N]]></type>
+    <title><![CDATA[Engagement]]></title>
+    <question><![CDATA[<p>Combien de fois par semaine en moyenne pratiquez-vous une activité physique (sports, moyens de locomotion actifs comme la marche ou le vélo, jardinage ou toute activité qui requiert une dépense d’énergie) ?</p>
+]]></question>
+    <preg/>
+    <help/>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[Y]]></mandatory>
+    <question_order><![CDATA[8]]></question_order>
+    <language><![CDATA[fr]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename/>
+   </row>
+   <row>
+    <qid><![CDATA[12407]]></qid>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <sid><![CDATA[914436]]></sid>
+    <gid><![CDATA[1262]]></gid>
+    <type><![CDATA[!]]></type>
+    <title><![CDATA[CapEco]]></title>
+    <question><![CDATA[<div class="sm-mdsGridPlusContainer-0-2-1999 sm-mdsGridPlusContainer-d401-0-2-2337">
+<div class="sm-mdsGridPlus-0-2-2000 sm-mdsGridPlus-d407-0-2-2338 sm-addFlex-0-2-1997 sm-addFlex-d33-0-2-2336">
+<div class="sm-mdsGridPlusItem-0-2-2005 sm-mdsGridPlusItem-d222-0-2-2340 sm-addFlex-0-2-2003 sm-addFlex-d37-0-2-2339">
+<p class="sm-background-0-2-55 sm-background-d370-0-2-2332 sm-dropCap-0-2-56 sm-dropCap-d373-0-2-2333 sm-paragraph-0-2-57 sm-paragraph-d374-0-2-2334 sm-responsiveTypography-0-2-61 sm-responsiveTypography-d495-0-2-2335">Quel est l'ordre de grandeur de vos revenus annuels nets ?</p>
+</div>
+</div>
+</div>
+]]></question>
+    <preg/>
+    <help/>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[Y]]></mandatory>
+    <question_order><![CDATA[4]]></question_order>
+    <language><![CDATA[fr]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+   </row>
+   <row>
+    <qid><![CDATA[12408]]></qid>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <sid><![CDATA[914436]]></sid>
+    <gid><![CDATA[1262]]></gid>
+    <type><![CDATA[T]]></type>
+    <title><![CDATA[autre]]></title>
+    <question><![CDATA[<p>Avez vous des informations supplémentaires à nous communiquer qui pourraient nous aider à mieux comprendre votre rapport à l'activité physique régulière ?</p>
+
+<p>Cette question est facultative.</p>
+]]></question>
+    <preg/>
+    <help/>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[N]]></mandatory>
+    <question_order><![CDATA[9]]></question_order>
+    <language><![CDATA[fr]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename/>
+   </row>
+  </rows>
+ </questions>
+ <subquestions>
+  <fields>
+   <fieldname>qid</fieldname>
+   <fieldname>parent_qid</fieldname>
+   <fieldname>sid</fieldname>
+   <fieldname>gid</fieldname>
+   <fieldname>type</fieldname>
+   <fieldname>title</fieldname>
+   <fieldname>question</fieldname>
+   <fieldname>preg</fieldname>
+   <fieldname>help</fieldname>
+   <fieldname>other</fieldname>
+   <fieldname>mandatory</fieldname>
+   <fieldname>question_order</fieldname>
+   <fieldname>language</fieldname>
+   <fieldname>scale_id</fieldname>
+   <fieldname>same_default</fieldname>
+   <fieldname>relevance</fieldname>
+   <fieldname>modulename</fieldname>
+  </fields>
+  <rows>
+   <row>
+    <qid><![CDATA[12399]]></qid>
+    <parent_qid><![CDATA[12389]]></parent_qid>
+    <sid><![CDATA[914436]]></sid>
+    <gid><![CDATA[1259]]></gid>
+    <type><![CDATA[T]]></type>
+    <title><![CDATA[CPlan]]></title>
+    <question><![CDATA[<p style="text-align:justify;"> </p><p style="text-align:justify;"> </p><p style="text-align:justify;">Ces dernières semaines ont été intenses : vous ressentez une baisse d’énergie et un manque de sommeil. Vous êtes épuisé(e) après cette période très chargée ce qui vous laisse peu de motivation pour entreprendre une activité exigeante.</p><p style="text-align:justify;">Cependant, vous avez la possibilité de pratiquer la course à pied comme loisir. Cette activité vous plait, car cela vous détend et vous permet de passer du temps à réfléchir et à profiter de l’extérieur. Vous pourriez aller courir deux fois par semaine.</p><p style="text-align:justify;">Quelles sont les chances que vous vous engagiez dans cette activité malgré votre fatigue générale ?</p><p> </p><p>| Je suis sûr de ne pas m’engager | Je suis sûr de m’engager</p>]]></question>
+    <help/>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[N]]></mandatory>
+    <question_order><![CDATA[1]]></question_order>
+    <language><![CDATA[fr]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename/>
+   </row>
+   <row>
+    <qid><![CDATA[12400]]></qid>
+    <parent_qid><![CDATA[12389]]></parent_qid>
+    <sid><![CDATA[914436]]></sid>
+    <gid><![CDATA[1259]]></gid>
+    <type><![CDATA[T]]></type>
+    <title><![CDATA[CFam]]></title>
+    <question><![CDATA[<p style="text-align:justify;"> </p><p style="text-align:justify;"> </p><p style="text-align:justify;">Ces dernières semaines ont été intenses : vous ressentez une baisse d’énergie et un manque de sommeil. Vous êtes épuisé(e) après cette période très chargée ce qui vous laisse peu de motivation pour entreprendre une activité exigeante.</p><p style="text-align:justify;">Cependant, depuis que vous êtes petit(e), votre famille court deux fois par semaine dans un parc proche de chez vous. Vous avez grandi en suivant cette tradition, mais vous avez arrêté ces dernières années. Vous pourriez décider de reprendre cette habitude familiale.</p><p style="text-align:justify;">Quelles sont les chances que vous vous engagiez dans cette activité malgré votre fatigue générale ?</p><p> </p><p>| Je suis sûr de ne pas m’engager | Je suis sûr de m’engager</p>]]></question>
+    <help/>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[N]]></mandatory>
+    <question_order><![CDATA[2]]></question_order>
+    <language><![CDATA[fr]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename/>
+   </row>
+   <row>
+    <qid><![CDATA[12401]]></qid>
+    <parent_qid><![CDATA[12389]]></parent_qid>
+    <sid><![CDATA[914436]]></sid>
+    <gid><![CDATA[1259]]></gid>
+    <type><![CDATA[T]]></type>
+    <title><![CDATA[CJust]]></title>
+    <question><![CDATA[<p style="text-align:justify;"> </p><p style="text-align:justify;"> </p><p style="text-align:justify;">Ces dernières semaines ont été intenses : vous ressentez une baisse d’énergie et un manque de sommeil. Vous êtes épuisé(e) après cette période très chargée ce qui vous laisse peu de motivation pour entreprendre une activité exigeante.</p><p style="text-align:justify;">Cependant, une organisation caritative à côté de chez vous organise dans 6 mois une course pour financer la recherche contre la leucémie (cancer des cellules de la moelle osseuse souvent rencontré chez les enfants). Vous êtes invité(e) à participer à cette course quel que soit votre niveau et pouvez profiter d’un groupe d’entraînement pour vous préparer à votre rythme, deux fois par semaine.</p><p style="text-align:justify;">Quelles sont les chances que vous vous engagiez dans cette activité malgré votre fatigue générale ?</p><p>| Je suis sûr de ne pas m’engager | Je suis sûr de m’engager</p>]]></question>
+    <help/>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[N]]></mandatory>
+    <question_order><![CDATA[3]]></question_order>
+    <language><![CDATA[fr]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename/>
+   </row>
+   <row>
+    <qid><![CDATA[12402]]></qid>
+    <parent_qid><![CDATA[12390]]></parent_qid>
+    <sid><![CDATA[914436]]></sid>
+    <gid><![CDATA[1261]]></gid>
+    <type><![CDATA[T]]></type>
+    <title><![CDATA[MPlan]]></title>
+    <question><![CDATA[<p style="text-align:justify;"> </p><p style="text-align:justify;"> </p><p style="text-align:justify;">Ces dernières semaines ont été intenses : vous ressentez une baisse d’énergie et un manque de sommeil. Vous êtes épuisé(e) après cette période très chargée ce qui vous laisse peu de motivation pour entreprendre une activité exigeante.</p><p style="text-align:justify;">Cependant, vous savez que marcher régulièrement diminue de 50 % le risque de maladies cardiovasculaires. Vous pourriez marcher 2 fois par semaine pour protéger votre santé.</p><p style="text-align:justify;">Quelles sont les chances que vous vous engagiez dans cette activité malgré votre fatigue générale ?</p><p> </p><p>| Je suis sûr de ne pas m’engager | Je suis sûr de m’engager</p>]]></question>
+    <help/>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[N]]></mandatory>
+    <question_order><![CDATA[1]]></question_order>
+    <language><![CDATA[fr]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename/>
+   </row>
+   <row>
+    <qid><![CDATA[12403]]></qid>
+    <parent_qid><![CDATA[12390]]></parent_qid>
+    <sid><![CDATA[914436]]></sid>
+    <gid><![CDATA[1261]]></gid>
+    <type><![CDATA[T]]></type>
+    <title><![CDATA[MFam]]></title>
+    <question><![CDATA[<p style="text-align:justify;"> </p><p style="text-align:justify;"> </p><p style="text-align:justify;">Ces dernières semaines ont été intenses : vous ressentez une baisse d’énergie et un manque de sommeil. Vous êtes épuisé(e) après cette période très chargée ce qui vous laisse peu de motivation pour entreprendre une activité exigeante.</p><p style="text-align:justify;">Cependant, vous marchez deux fois par semaine dans le quartier pour sortir votre animal de compagnie. C’est une routine quotidienne qui fait partie de votre vie depuis des années, mais ces derniers temps vous avez arrêté. Vous pourriez décider de reprendre ces promenades.</p><p style="text-align:justify;">Quelles sont les chances que vous vous engagiez dans cette activité malgré votre fatigue générale ?</p><p> </p><p>| Je suis sûr de ne pas m’engager | Je suis sûr de m’engager</p>]]></question>
+    <help/>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[N]]></mandatory>
+    <question_order><![CDATA[2]]></question_order>
+    <language><![CDATA[fr]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename/>
+   </row>
+   <row>
+    <qid><![CDATA[12404]]></qid>
+    <parent_qid><![CDATA[12390]]></parent_qid>
+    <sid><![CDATA[914436]]></sid>
+    <gid><![CDATA[1261]]></gid>
+    <type><![CDATA[T]]></type>
+    <title><![CDATA[MJust]]></title>
+    <question><![CDATA[<p style="text-align:justify;"> </p><p style="text-align:justify;"> </p><p style="text-align:justify;">Ces dernières semaines ont été intenses : vous ressentez une baisse d’énergie et un manque de sommeil. Vous êtes épuisé(e) après cette période très chargée ce qui vous laisse peu de motivation pour entreprendre une activité exigeante.</p><p style="text-align:justify;">Cependant, un proche âgé de votre entourage a besoin de marcher régulièrement pour maintenir sa santé. Vous avez la possibilité de l’accompagner deux fois par semaine pour l’aider à rester actif.</p><p style="text-align:justify;">Quelles sont les chances que vous vous engagiez dans cette activité malgré votre fatigue générale ?</p><p>| Je suis sûr de ne pas m’engager | Je suis sûr de m’engager</p>]]></question>
+    <help/>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[N]]></mandatory>
+    <question_order><![CDATA[3]]></question_order>
+    <language><![CDATA[fr]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename/>
+   </row>
+   <row>
+    <qid><![CDATA[12405]]></qid>
+    <parent_qid><![CDATA[12395]]></parent_qid>
+    <sid><![CDATA[914436]]></sid>
+    <gid><![CDATA[1262]]></gid>
+    <type><![CDATA[T]]></type>
+    <title><![CDATA[SQ001]]></title>
+    <question><![CDATA[ | Aucun de mes proches 0 % | 100 % La totalité de mes proches]]></question>
+    <help/>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[N]]></mandatory>
+    <question_order><![CDATA[1]]></question_order>
+    <language><![CDATA[fr]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename/>
+   </row>
+   <row>
+    <qid><![CDATA[12406]]></qid>
+    <parent_qid><![CDATA[12397]]></parent_qid>
+    <sid><![CDATA[914436]]></sid>
+    <gid><![CDATA[1262]]></gid>
+    <type><![CDATA[T]]></type>
+    <title><![CDATA[SQ001]]></title>
+    <question><![CDATA[| Totalement limité(e) 0 %  | 100 % Pas du tout limité(e)]]></question>
+    <help/>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[N]]></mandatory>
+    <question_order><![CDATA[1]]></question_order>
+    <language><![CDATA[fr]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename/>
+   </row>
+  </rows>
+ </subquestions>
+ <question_attributes>
+  <fields>
+   <fieldname>qid</fieldname>
+   <fieldname>attribute</fieldname>
+   <fieldname>value</fieldname>
+   <fieldname>language</fieldname>
+  </fields>
+  <rows>
+   <row>
+    <qid><![CDATA[12388]]></qid>
+    <attribute><![CDATA[equation]]></attribute>
+    <value><![CDATA[{if(is_empty(random),rand(0,1),random)}]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[12388]]></qid>
+    <attribute><![CDATA[hidden]]></attribute>
+    <value><![CDATA[1]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[12389]]></qid>
+    <attribute><![CDATA[cssclass]]></attribute>
+    <value><![CDATA[no-tooltip]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[12389]]></qid>
+    <attribute><![CDATA[random_order]]></attribute>
+    <value><![CDATA[1]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[12389]]></qid>
+    <attribute><![CDATA[slider_accuracy]]></attribute>
+    <value><![CDATA[1]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[12389]]></qid>
+    <attribute><![CDATA[slider_default]]></attribute>
+    <value><![CDATA[50]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[12389]]></qid>
+    <attribute><![CDATA[slider_layout]]></attribute>
+    <value><![CDATA[1]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[12389]]></qid>
+    <attribute><![CDATA[slider_max]]></attribute>
+    <value><![CDATA[100]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[12389]]></qid>
+    <attribute><![CDATA[slider_middlestart]]></attribute>
+    <value><![CDATA[1]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[12389]]></qid>
+    <attribute><![CDATA[slider_min]]></attribute>
+    <value><![CDATA[0]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[12390]]></qid>
+    <attribute><![CDATA[cssclass]]></attribute>
+    <value><![CDATA[no-tooltip]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[12390]]></qid>
+    <attribute><![CDATA[random_order]]></attribute>
+    <value><![CDATA[1]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[12390]]></qid>
+    <attribute><![CDATA[slider_accuracy]]></attribute>
+    <value><![CDATA[1]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[12390]]></qid>
+    <attribute><![CDATA[slider_default]]></attribute>
+    <value><![CDATA[50]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[12390]]></qid>
+    <attribute><![CDATA[slider_layout]]></attribute>
+    <value><![CDATA[1]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[12390]]></qid>
+    <attribute><![CDATA[slider_max]]></attribute>
+    <value><![CDATA[100]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[12390]]></qid>
+    <attribute><![CDATA[slider_middlestart]]></attribute>
+    <value><![CDATA[1]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[12390]]></qid>
+    <attribute><![CDATA[slider_min]]></attribute>
+    <value><![CDATA[0]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[12391]]></qid>
+    <attribute><![CDATA[min_num_value_n]]></attribute>
+    <value><![CDATA[18]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[12391]]></qid>
+    <attribute><![CDATA[num_value_int_only]]></attribute>
+    <value><![CDATA[1]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[12395]]></qid>
+    <attribute><![CDATA[slider_accuracy]]></attribute>
+    <value><![CDATA[1]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[12395]]></qid>
+    <attribute><![CDATA[slider_default]]></attribute>
+    <value><![CDATA[50]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[12395]]></qid>
+    <attribute><![CDATA[slider_layout]]></attribute>
+    <value><![CDATA[1]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[12395]]></qid>
+    <attribute><![CDATA[slider_max]]></attribute>
+    <value><![CDATA[100]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[12395]]></qid>
+    <attribute><![CDATA[slider_min]]></attribute>
+    <value><![CDATA[0]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[12397]]></qid>
+    <attribute><![CDATA[slider_accuracy]]></attribute>
+    <value><![CDATA[1]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[12397]]></qid>
+    <attribute><![CDATA[slider_default]]></attribute>
+    <value><![CDATA[50]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[12397]]></qid>
+    <attribute><![CDATA[slider_layout]]></attribute>
+    <value><![CDATA[1]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[12397]]></qid>
+    <attribute><![CDATA[slider_max]]></attribute>
+    <value><![CDATA[100]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[12397]]></qid>
+    <attribute><![CDATA[slider_min]]></attribute>
+    <value><![CDATA[0]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[12398]]></qid>
+    <attribute><![CDATA[num_value_int_only]]></attribute>
+    <value><![CDATA[1]]></value>
+   </row>
+  </rows>
+ </question_attributes>
+ <surveys>
+  <fields>
+   <fieldname>sid</fieldname>
+   <fieldname>admin</fieldname>
+   <fieldname>expires</fieldname>
+   <fieldname>startdate</fieldname>
+   <fieldname>adminemail</fieldname>
+   <fieldname>anonymized</fieldname>
+   <fieldname>faxto</fieldname>
+   <fieldname>format</fieldname>
+   <fieldname>savetimings</fieldname>
+   <fieldname>template</fieldname>
+   <fieldname>language</fieldname>
+   <fieldname>additional_languages</fieldname>
+   <fieldname>datestamp</fieldname>
+   <fieldname>usecookie</fieldname>
+   <fieldname>allowregister</fieldname>
+   <fieldname>allowsave</fieldname>
+   <fieldname>autonumber_start</fieldname>
+   <fieldname>autoredirect</fieldname>
+   <fieldname>allowprev</fieldname>
+   <fieldname>printanswers</fieldname>
+   <fieldname>ipaddr</fieldname>
+   <fieldname>refurl</fieldname>
+   <fieldname>publicstatistics</fieldname>
+   <fieldname>publicgraphs</fieldname>
+   <fieldname>listpublic</fieldname>
+   <fieldname>htmlemail</fieldname>
+   <fieldname>sendconfirmation</fieldname>
+   <fieldname>tokenanswerspersistence</fieldname>
+   <fieldname>assessments</fieldname>
+   <fieldname>usecaptcha</fieldname>
+   <fieldname>usetokens</fieldname>
+   <fieldname>bounce_email</fieldname>
+   <fieldname>attributedescriptions</fieldname>
+   <fieldname>emailresponseto</fieldname>
+   <fieldname>emailnotificationto</fieldname>
+   <fieldname>tokenlength</fieldname>
+   <fieldname>showxquestions</fieldname>
+   <fieldname>showgroupinfo</fieldname>
+   <fieldname>shownoanswer</fieldname>
+   <fieldname>showqnumcode</fieldname>
+   <fieldname>bouncetime</fieldname>
+   <fieldname>bounceprocessing</fieldname>
+   <fieldname>bounceaccounttype</fieldname>
+   <fieldname>bounceaccounthost</fieldname>
+   <fieldname>bounceaccountpass</fieldname>
+   <fieldname>bounceaccountencryption</fieldname>
+   <fieldname>bounceaccountuser</fieldname>
+   <fieldname>showwelcome</fieldname>
+   <fieldname>showprogress</fieldname>
+   <fieldname>navigationdelay</fieldname>
+   <fieldname>nokeyboard</fieldname>
+   <fieldname>alloweditaftercompletion</fieldname>
+   <fieldname>googleanalyticsstyle</fieldname>
+   <fieldname>googleanalyticsapikey</fieldname>
+   <fieldname>questionindex</fieldname>
+  </fields>
+  <rows>
+   <row>
+    <sid><![CDATA[914436]]></sid>
+    <admin><![CDATA[Romaine Martinie]]></admin>
+    <adminemail><![CDATA[romain.martinie@ens-rennes.fr]]></adminemail>
+    <anonymized><![CDATA[Y]]></anonymized>
+    <faxto/>
+    <format><![CDATA[G]]></format>
+    <savetimings><![CDATA[N]]></savetimings>
+    <template><![CDATA[default]]></template>
+    <language><![CDATA[fr]]></language>
+    <additional_languages/>
+    <datestamp><![CDATA[Y]]></datestamp>
+    <usecookie><![CDATA[N]]></usecookie>
+    <allowregister><![CDATA[N]]></allowregister>
+    <allowsave><![CDATA[N]]></allowsave>
+    <autonumber_start><![CDATA[0]]></autonumber_start>
+    <autoredirect><![CDATA[N]]></autoredirect>
+    <allowprev><![CDATA[N]]></allowprev>
+    <printanswers><![CDATA[N]]></printanswers>
+    <ipaddr><![CDATA[N]]></ipaddr>
+    <refurl><![CDATA[N]]></refurl>
+    <publicstatistics><![CDATA[N]]></publicstatistics>
+    <publicgraphs><![CDATA[N]]></publicgraphs>
+    <listpublic><![CDATA[N]]></listpublic>
+    <htmlemail><![CDATA[Y]]></htmlemail>
+    <sendconfirmation><![CDATA[Y]]></sendconfirmation>
+    <tokenanswerspersistence><![CDATA[N]]></tokenanswerspersistence>
+    <assessments><![CDATA[N]]></assessments>
+    <usecaptcha><![CDATA[N]]></usecaptcha>
+    <usetokens><![CDATA[N]]></usetokens>
+    <bounce_email><![CDATA[romain.martinie@ens-rennes.fr]]></bounce_email>
+    <emailresponseto/>
+    <emailnotificationto/>
+    <tokenlength><![CDATA[15]]></tokenlength>
+    <showxquestions><![CDATA[N]]></showxquestions>
+    <showgroupinfo><![CDATA[B]]></showgroupinfo>
+    <shownoanswer><![CDATA[Y]]></shownoanswer>
+    <showqnumcode><![CDATA[X]]></showqnumcode>
+    <bounceprocessing><![CDATA[N]]></bounceprocessing>
+    <showwelcome><![CDATA[Y]]></showwelcome>
+    <showprogress><![CDATA[N]]></showprogress>
+    <navigationdelay><![CDATA[0]]></navigationdelay>
+    <nokeyboard><![CDATA[N]]></nokeyboard>
+    <alloweditaftercompletion><![CDATA[N]]></alloweditaftercompletion>
+    <googleanalyticsstyle><![CDATA[0]]></googleanalyticsstyle>
+    <googleanalyticsapikey/>
+    <questionindex><![CDATA[0]]></questionindex>
+   </row>
+  </rows>
+ </surveys>
+ <surveys_languagesettings>
+  <fields>
+   <fieldname>surveyls_survey_id</fieldname>
+   <fieldname>surveyls_language</fieldname>
+   <fieldname>surveyls_title</fieldname>
+   <fieldname>surveyls_description</fieldname>
+   <fieldname>surveyls_welcometext</fieldname>
+   <fieldname>surveyls_endtext</fieldname>
+   <fieldname>surveyls_url</fieldname>
+   <fieldname>surveyls_urldescription</fieldname>
+   <fieldname>surveyls_email_invite_subj</fieldname>
+   <fieldname>surveyls_email_invite</fieldname>
+   <fieldname>surveyls_email_remind_subj</fieldname>
+   <fieldname>surveyls_email_remind</fieldname>
+   <fieldname>surveyls_email_register_subj</fieldname>
+   <fieldname>surveyls_email_register</fieldname>
+   <fieldname>surveyls_email_confirm_subj</fieldname>
+   <fieldname>surveyls_email_confirm</fieldname>
+   <fieldname>surveyls_dateformat</fieldname>
+   <fieldname>surveyls_attributecaptions</fieldname>
+   <fieldname>email_admin_notification_subj</fieldname>
+   <fieldname>email_admin_notification</fieldname>
+   <fieldname>email_admin_responses_subj</fieldname>
+   <fieldname>email_admin_responses</fieldname>
+   <fieldname>surveyls_numberformat</fieldname>
+   <fieldname>attachments</fieldname>
+  </fields>
+  <rows>
+   <row>
+    <surveyls_survey_id><![CDATA[914436]]></surveyls_survey_id>
+    <surveyls_language><![CDATA[fr]]></surveyls_language>
+    <surveyls_title><![CDATA[L'engagement dans une activité physique régulière]]></surveyls_title>
+    <surveyls_description/>
+    <surveyls_welcometext><![CDATA[<p style="text-align:justify;">Ce questionnaire s’adresse à <u><strong>tout public</strong></u> et vous prendra <u><strong>moins de 5 minutes</strong></u>.</p>
+
+<p style="text-align:justify;">Il s’inscrit dans le cadre d’un mémoire universitaire visant à mieux comprendre les raisons de l’engagement dans une activité physique régulière. En participant, vous contribuez à une meilleure compréhension des pratiques physiques et de leurs déterminants. Merci pour votre participation !</p>
+]]></surveyls_welcometext>
+    <surveyls_endtext><![CDATA[<p>Merci beaucoup pour votre participation !</p>
+
+<p>N'hésitez pas à partager ce questionnaire à vos proches pour qu'ils y répondent également !</p>
+]]></surveyls_endtext>
+    <surveyls_url/>
+    <surveyls_urldescription/>
+    <surveyls_email_invite_subj><![CDATA[Invitation à participer à un questionnaire]]></surveyls_email_invite_subj>
+    <surveyls_email_invite><![CDATA[Cher(e) {FIRSTNAME},<br /><br />
+Vous avez été invité(e) à participer à un questionnaire.<br /><br />
+Celui-ci est intitulé :<br />
+"{SURVEYNAME}"<br /><br />
+"{SURVEYDESCRIPTION}"<br /><br />
+Pour participer, veuillez cliquer sur le lien ci-dessous.<br /><br />
+Cordialement,<br /><br />
+{ADMINNAME} ({ADMINEMAIL})<br /><br />
+----------------------------------------------<br />
+Cliquez ici pour remplir ce questionnaire :<br />
+{SURVEYURL}<br /><br />
+Si vous ne souhaitez pas participer à ce questionnaire et ne souhaitez plus recevoir aucune invitation, veuillez cliquer sur le lien suivant :<br />
+{OPTOUTURL}<br /><br />
+Si vous êtes sur liste noire mais que vous voulez participer à ce questionnaire et recevoir les invitations, merci de cliquer sur le lien suivant :<br />
+{OPTINURL}]]></surveyls_email_invite>
+    <surveyls_email_remind_subj><![CDATA[Rappel pour participer à un questionnaire]]></surveyls_email_remind_subj>
+    <surveyls_email_remind><![CDATA[Cher(e) {FIRSTNAME},<br /><br />
+Vous avez été invité(e) à participer à un questionnaire récemment.<br /><br />
+Nous avons pris en compte que vous n'avez pas encore complété le questionnaire, et nous vous rappelons que celui-ci est toujours disponible si vous souhaitez participer.<br /><br />
+Le questionnaire est intitulé :<br />
+"{SURVEYNAME}"<br /><br />
+"{SURVEYDESCRIPTION}"<br /><br />
+Pour participer, veuillez cliquer sur le lien ci-dessous.<br /><br />
+Cordialement,<br /><br />
+{ADMINNAME} ({ADMINEMAIL})<br /><br />
+----------------------------------------------<br />
+Cliquez ici pour faire le questionnaire:<br />
+{SURVEYURL}<br /><br />
+Si vous ne souhaitez pas participer à ce questionnaire et ne souhaitez plus recevoir aucune invitation, veuillez cliquer sur le lien suivant :<br />
+{OPTOUTURL}]]></surveyls_email_remind>
+    <surveyls_email_register_subj><![CDATA[Confirmation d'enregistrement au questionnaire]]></surveyls_email_register_subj>
+    <surveyls_email_register><![CDATA[Bonjour {FIRSTNAME},<br /><br />
+Vous (ou quelqu’un utilisant votre adresse électronique) vous êtes enregistré pour participer à un questionnaire en ligne intitulé {SURVEYNAME}.<br /><br />
+Pour compléter ce questionnaire, cliquez sur le lien suivant :<br />
+{SURVEYURL}<br /><br />
+Si vous avez des questions à propos de ce questionnaire, ou si vous ne vous êtes pas enregistré pour participer à celui-ci et croyez que ce courriel est une erreur, veuillez contacter {ADMINNAME} à l’adresse {ADMINEMAIL}]]></surveyls_email_register>
+    <surveyls_email_confirm_subj><![CDATA[Confirmation de votre participation à notre questionnaire]]></surveyls_email_confirm_subj>
+    <surveyls_email_confirm><![CDATA[Bonjour {FIRSTNAME},<br /><br />
+Ce courriel vous confirme que vous avez complété le questionnaire intitulé {SURVEYNAME} et que votre réponse a été enregistrée. Merci pour votre participation.<br /><br />
+Si vous avez des questions à propos de ce courriel, veuillez contacter {ADMINNAME} à l’adresse {ADMINEMAIL}.<br /><br />
+Cordialement,<br /><br />
+{ADMINNAME}]]></surveyls_email_confirm>
+    <surveyls_dateformat><![CDATA[5]]></surveyls_dateformat>
+    <email_admin_notification_subj><![CDATA[Soumission de réponse pour le questionnaire {SURVEYNAME}]]></email_admin_notification_subj>
+    <email_admin_notification><![CDATA[Bonjour,<br /><br />
+Une nouvelle réponse a été soumise pour votre questionnaire '{SURVEYNAME}'.<br /><br />
+Cliquez sur le lien suivant pour recharger votre questionnaire :<br />
+{RELOADURL}<br /><br />
+Cliquez sur le lien suivant pour voir la réponse :<br />
+{VIEWRESPONSEURL}<br /><br />
+Cliquez sur le lien suivant pour éditer la réponse :<br />
+{EDITRESPONSEURL}<br /><br />
+Visualisez les statistiques en cliquant ici :<br />
+{STATISTICSURL}<br /><br />
+les réponses suivantes ont été données par le participant :<br />
+{ANSWERTABLE}]]></email_admin_notification>
+    <email_admin_responses_subj><![CDATA[Soumission de réponse pour le questionnaire {SURVEYNAME} avec résultats]]></email_admin_responses_subj>
+    <email_admin_responses><![CDATA[Bonjour,<br /><br />
+Une nouvelle réponse a été soumise pour votre questionnaire '{SURVEYNAME}'.<br /><br />
+Cliquez sur le lien suivant pour recharger votre questionnaire :<br />
+{RELOADURL}<br /><br />
+Cliquez sur le lien suivant pour voir la réponse :<br />
+{VIEWRESPONSEURL}<br /><br />
+Cliquez sur le lien suivant pour éditer la réponse individuelle :<br />
+{EDITRESPONSEURL}<br /><br />
+Visualisez les statistiques en cliquant ici :<br />
+{STATISTICSURL}<br /><br /><br />
+les réponses suivantes ont été données par le participant :<br />
+{ANSWERTABLE}]]></email_admin_responses>
+    <surveyls_numberformat><![CDATA[1]]></surveyls_numberformat>
+   </row>
+  </rows>
+ </surveys_languagesettings>
+</document>
