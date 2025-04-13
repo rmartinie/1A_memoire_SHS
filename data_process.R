@@ -80,7 +80,7 @@ data <- data %>%
 #sachant que age, envCS, envPSubj et Engagement variables quanti
 #sinon variables quali
 # a décommenter si necessaire
-source("/home/romain/MEGA/ENS/EC 2.2 SHS/Mémoire/diff_CM.R") #a decommenter pour faire l'analyse entre Marce et course
+source("path/diff_CM.R") #a decommenter pour faire l'analyse entre Marce et course
 
 
 # 4.5 Sélection des colonnes pertinentes (à partir de la colonne 14)
