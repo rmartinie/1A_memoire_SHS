@@ -82,7 +82,7 @@ data <- data %>%
 # a décommenter si necessaire
 source("/home/romain/MEGA/ENS/EC 2.2 SHS/Mémoire/diff_CM.R") #a decommenter pour faire l'analyse entre Marce et course
 
-
+data$groupe <- data$random
 # 4.5 Sélection des colonnes pertinentes (à partir de la colonne 14)
 data <- data[, 14:ncol(data)]
 
@@ -96,6 +96,10 @@ data <- data[, setdiff(names(data), colonnes_a_exclure)]
 
 # 4.8 Suppression des lignes avec valeurs manquantes
 data <- na.omit(data)
+print(paste('course n =', nrow(data[data$groupe == 0,])))
+print(paste('marche n =', nrow(data[data$groupe == 1,])))
+colonnes_a_exclure <- c('groupe')
+data <- data[, setdiff(names(data), colonnes_a_exclure)]
 
 # -------------------------------------------------------------------
 # 5. ANALYSE DE L'ENGAGEMENT PAR RÉGIME
@@ -201,6 +205,19 @@ data_acm$EnvPObj <- factor(data_acm$EnvPObj)
 names(data_acm)[names(data_acm) == 'EnvCS.SQ001.'] <- 'EnvCulturelSocial'
 names(data_acm)[names(data_acm) == 'EnvPSubj.SQ001.'] <- 'EnvReelSubj'
 names(data_acm)[names(data_acm) == 'EnvPObj'] <- 'EnvReelObj'
+
+
+data_acm <- data_acm %>%
+  mutate(CSP = case_when(
+    CSP == "Etudiant(e)s" ~ "Étudiants",
+    CSP == "Cadres et professions intellectuelles supérieures" ~ "Cadres",
+    CSP == "Ouvriers / Ouvrières" ~ "Ouvriers",
+    CSP == "Artisans / Artisanes, commerçants / commerçantes et chefs / cheffes d’entreprise" ~ "Indépendants",
+    CSP == "Retraité(e)s" ~ "Retraités",
+    CSP == "Employé(e)s" ~ "Employés",
+    CSP == "Professions intermédiaires" ~ "Intermédiaires",
+    TRUE ~ "Autre"
+  ))
 
 # 6.9 Conversion de toutes les variables en facteurs pour l'ACM
 data_acm[] <- lapply(data_acm, as.factor)
