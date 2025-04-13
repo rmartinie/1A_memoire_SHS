@@ -17,7 +17,7 @@ library(rstatix)     # Pour les tests statistiques
 # 2. IMPORTATION DES DONNÉES
 # -------------------------------------------------------------------
 # Importation du fichier de données CSV
-data <- read.csv("/home/romain/MEGA/ENS/EC 2.2 SHS/Mémoire/données/Stats_espaceSocio/data/results-survey914436.csv", sep=',')
+data <- read.csv("path/results-survey914436.csv", sep=',')
 head(data)  # Aperçu des premières lignes du jeu de données
 
 # -------------------------------------------------------------------
