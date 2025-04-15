@@ -18,7 +18,7 @@ library(openxlsx)    # Pour exporter les données quali
 # 2. IMPORTATION DES DONNÉES
 # -------------------------------------------------------------------
 # Importation du fichier de données CSV
-data <- read.csv("/home/romain/MEGA/ENS/EC 2.2 SHS/Mémoire/données/Stats_espaceSocio/data/results-survey914436.csv", sep=',')
+data <- read.csv("user/path/raw_data.csv", sep=',')
 head(data)  # Aperçu des premières lignes du jeu de données
 
 # -------------------------------------------------------------------
@@ -81,7 +81,7 @@ data <- data %>%
 #sachant que age, envCS, envPSubj et Engagement variables quanti
 #sinon variables quali
 # a décommenter si necessaire
-source("/home/romain/MEGA/ENS/EC 2.2 SHS/Mémoire/diff_CM.R") #a decommenter pour faire l'analyse entre Marce et course
+#source("user/path/diff_CM.R") #a decommenter pour faire l'analyse entre Marce et course
 
 data$groupe <- data$random
 # 4.5 Sélection des colonnes pertinentes (à partir de la colonne 14)

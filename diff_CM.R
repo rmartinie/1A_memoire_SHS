@@ -12,11 +12,8 @@
 # -------------------------------------------------------------------
 # 1. CHARGEMENT DES BIBLIOTHÈQUES
 # -------------------------------------------------------------------
-library(tidyverse) #Collection de packages R pour la manipulation et visualisation des données
-#library(car)       #Package pour les analyses de régression et diagnostics
-library(ggplot2)   #Package pour la création de graphiques élégants
-#library(nortest)   #Package pour les tests de normalité
-#library(gmodels)   #Package pour les modèles et tableaux croisés
+library(tidyverse) # Pour la manipulation et visualisation des données
+library(ggplot2)   # Pourr la création de graphiques élégants
 
 # Fonction pour analyser une variable quantitative
 analyze_quant_var <- function(data, var_name, group_var = "random") {
@@ -161,6 +158,7 @@ analyze_qual_var <- function(data, var_name, group_var = "random") {
   } else {
     cat("\nTest du Chi-2:\n")
     test_result <- chisq.test(cont_table)
+    print(cramer_v(cont_table))
   }
   
   print(test_result)
@@ -186,18 +184,12 @@ analyze_qual_var <- function(data, var_name, group_var = "random") {
       # Calculer la proportion
       prop <- freq / total
       
-      # Calculer l'intervalle de confiance (approximation normale)
-      se <- sqrt(prop * (1 - prop) / total)
-      ci_lower <- max(0, prop - 1.96 * se)
-      ci_upper <- min(1, prop + 1.96 * se)
       
       # Ajouter à notre dataframe
       prop_data <- rbind(prop_data, data.frame(
         Groupe = g,
         Catégorie = cat,
         Proportion = prop,
-        CI_Lower = ci_lower,
-        CI_Upper = ci_upper,
         Total = total
       ))
     }
@@ -206,15 +198,11 @@ analyze_qual_var <- function(data, var_name, group_var = "random") {
   # Créer le graphique
   p <- ggplot(prop_data, aes(x = Catégorie, y = Proportion, fill = Groupe)) +
     geom_bar(stat = "identity", position = position_dodge(width = 0.9)) +
-    geom_errorbar(aes(ymin = CI_Lower, ymax = CI_Upper), 
-                  position = position_dodge(width = 0.9), 
-                  width = 0.25) +
     theme_minimal() +
     labs(title = paste0("Comparaison de ", var_name, " entre les groupes"),
          x = var_name,
          y = "Proportion",
-         fill = "Groupe",
-         caption = "Les barres d'erreur représentent l'intervalle de confiance à 95%") +
+         fill = "Groupe")+
     scale_fill_brewer(palette = "Set1") +
     scale_y_continuous(labels = scales::percent_format())
   
@@ -246,7 +234,7 @@ analyze_all_variables <- function(data) {
   quant_vars <- c("age", "EnvCS.SQ001.", "EnvPSubj.SQ001.", "Engagement")
   
   # Variables qualitatives à analyser
-  qual_vars <- c("Genre", "CSP", "Diplome", "CapEco", "EnvPObj")
+  qual_vars <- c("Genre", "CSP", "Diplome", "CapEco", "EnvPObj", 'regime')
   
   # Résultats
   results_quant <- list()
