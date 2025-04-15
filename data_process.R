@@ -12,12 +12,13 @@ library(factoextra)  # Pour la visualisation des résultats de l'ACM
 library(dplyr)       # Pour la manipulation des données
 library(ggplot2)     # Pour les visualisations graphiques
 library(rstatix)     # Pour les tests statistiques
+library(openxlsx)    # Pour exporter les données quali
 
 # -------------------------------------------------------------------
 # 2. IMPORTATION DES DONNÉES
 # -------------------------------------------------------------------
 # Importation du fichier de données CSV
-data <- read.csv("path/results-survey914436.csv", sep=',')
+data <- read.csv("/home/romain/MEGA/ENS/EC 2.2 SHS/Mémoire/données/Stats_espaceSocio/data/results-survey914436.csv", sep=',')
 head(data)  # Aperçu des premières lignes du jeu de données
 
 # -------------------------------------------------------------------
@@ -80,7 +81,7 @@ data <- data %>%
 #sachant que age, envCS, envPSubj et Engagement variables quanti
 #sinon variables quali
 # a décommenter si necessaire
-source("path/diff_CM.R") #a decommenter pour faire l'analyse entre Marce et course
+source("/home/romain/MEGA/ENS/EC 2.2 SHS/Mémoire/diff_CM.R") #a decommenter pour faire l'analyse entre Marce et course
 
 data$groupe <- data$random
 # 4.5 Sélection des colonnes pertinentes (à partir de la colonne 14)
@@ -89,6 +90,8 @@ data <- data[, 14:ncol(data)]
 # 4.6 Comptage des réponses "autre"
 n_autre <- nrow(data[data$autre != "", ])
 data_qual <- data[data$autre != "", c("regime", "autre")]
+#write.xlsx(data_qual, file = "data_qual.xlsx")
+
 
 # 4.7 Suppression des colonnes non nécessaires pour l'analyse
 colonnes_a_exclure <- c("CSP.other.", "Diplome.other.", "regime_1", "regime_2", 'autre')
@@ -98,14 +101,33 @@ data <- data[, setdiff(names(data), colonnes_a_exclure)]
 data <- na.omit(data)
 print(paste('course n =', nrow(data[data$groupe == 0,])))
 print(paste('marche n =', nrow(data[data$groupe == 1,])))
+
+
+#DIFFENCE ACM MARCE/COURSE
+data_course <- data[data$groupe == 0,]
+data_marche <- data[data$groupe == 1,]
+
+
+contingence <- data %>%
+  group_by(groupe, regime) %>%
+  summarise(Frequence = n(), .groups = "drop") %>%
+  group_by(groupe) %>%
+  mutate(Pourcentage = round(100 * Frequence / sum(Frequence), 1)) %>%
+  arrange(groupe, regime)
+contingence
+
 colonnes_a_exclure <- c('groupe')
 data <- data[, setdiff(names(data), colonnes_a_exclure)]
-
+data_course <- data_course[, setdiff(names(data), colonnes_a_exclure)]
+data_marche <- data_marche[, setdiff(names(data), colonnes_a_exclure)]
 # -------------------------------------------------------------------
 # 5. ANALYSE DE L'ENGAGEMENT PAR RÉGIME
 # -------------------------------------------------------------------
 # 5.1 Préparation d'un sous-ensemble pour l'analyse
-table_engagement <- data[, c("regime", "Engagement")]
+table_engagement <- data[, c("regime", "Engagement")] #all
+table_engagement <- data_course[, c("regime", "Engagement")] #course
+table_engagement <- data_marche[, c("regime", "Engagement")] #marche
+
 
 # 5.2 Visualisation de la distribution de l'engagement
 # Histogramme de l'engagement
@@ -140,10 +162,12 @@ table_engagement$Engagement <- cut(
 # 5.6 Test du chi-carré pour l'association régime/engagement
 # Création du tableau de contingence
 table_contingence <- table(table_engagement$regime, table_engagement$Engagement)
-# Test du chi-carré
+# Test du chi-carré pour course, fisher pour marche
+fishe <- fisher_test(table_contingence)
 test_chi2 <- chisq.test(table_contingence)
 v_cramer <- cramer_v(table_contingence)  # Force de l'association
 
+print(fishe)
 print(test_chi2)
 print(paste("V de Cramer:", v_cramer))
 
@@ -151,7 +175,10 @@ print(paste("V de Cramer:", v_cramer))
 # 6. PRÉPARATION DES DONNÉES POUR L'ACM
 # -------------------------------------------------------------------
 # 6.1 Exclure la variable d'engagement pour l'ACM
-data_acm <- data[, setdiff(names(data), c('Engagement'))]
+#décommenter le bon
+data_acm <- data_marche[, setdiff(names(data), c('Engagement'))] #marche
+#data_acm <- data_course[, setdiff(names(data), c('Engagement'))] #course
+#data_acm <- data[, setdiff(names(data), c('Engagement'))] #all
 
 # 6.2 Recodage de l'âge en tranches
 data_acm$age <- cut(
@@ -252,3 +279,5 @@ fviz_contrib(
 #   repel = TRUE, 
 #   title = "ACM - Représentation des variables et des individus"
 # )
+
+
