@@ -18,7 +18,7 @@ library(openxlsx)    # Pour exporter les données quali
 # 2. IMPORTATION DES DONNÉES
 # -------------------------------------------------------------------
 # Importation du fichier de données CSV
-data <- read.csv("/home/romain/Documents/GitHub/1A_memoire_SHS/raw_data.csv", sep=',')
+data <- read.csv("https://raw.githubusercontent.com/rmartinie/1A_memoire_SHS/refs/heads/main/raw_data.csv", sep=',')
 head(data)  # Aperçu des premières lignes du jeu de données
 
 # -------------------------------------------------------------------
@@ -81,7 +81,7 @@ data <- data %>%
 #sachant que age, envCS, envPSubj et Engagement variables quanti
 #sinon variables quali
 # a décommenter si necessaire
-#source("user/path/diff_CM.R") #a decommenter pour faire l'analyse entre Marce et course
+#source("https://raw.githubusercontent.com/rmartinie/1A_memoire_SHS/refs/heads/main/diff_CM.R") #a decommenter pour faire l'analyse entre Marce et course
 
 data$groupe <- data$random
 # 4.5 Sélection des colonnes pertinentes (à partir de la colonne 14)
@@ -90,7 +90,7 @@ data <- data[, 14:ncol(data)]
 # 4.6 Comptage des réponses "autre"
 n_autre <- nrow(data[data$autre != "", ])
 data_qual <- data[data$autre != "", c("regime", "autre")]
-#write.xlsx(data_qual, file = "data_qual.xlsx")
+#write.xlsx(data_qual, file = "data_qual.xlsx") #a décommenter pour les exporter
 
 
 # 4.7 Suppression des colonnes non nécessaires pour l'analyse
