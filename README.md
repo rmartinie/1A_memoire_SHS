@@ -1,6 +1,5 @@
 # Mémoire 1A SHS 2024-2025
-## Les déterminants sociaux et moraux de l'activité physique régulière :
-### Une opérationnalisation des régimes d'engagement
+## Les déterminants sociaux et moraux de l'activité physique régulière : Une opérationnalisation des régimes d'engagement
 
 Romain MARTINIE & Léonine ROUANET (ENS 2SEP) sous la direction de Jean-Nicolas RENAUD (ENS 2SEP)
 
