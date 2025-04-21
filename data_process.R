@@ -18,7 +18,7 @@ library(openxlsx)    # Pour exporter les données quali
 # 2. IMPORTATION DES DONNÉES
 # -------------------------------------------------------------------
 # Importation du fichier de données CSV
-data <- read.csv("user/path/raw_data.csv", sep=',')
+data <- read.csv("/home/romain/Documents/GitHub/1A_memoire_SHS/raw_data.csv", sep=',')
 head(data)  # Aperçu des premières lignes du jeu de données
 
 # -------------------------------------------------------------------
@@ -176,11 +176,11 @@ print(paste("V de Cramer:", v_cramer))
 # -------------------------------------------------------------------
 # 6.1 Exclure la variable d'engagement pour l'ACM
 #décommenter le bon
-data_acm <- data_marche[, setdiff(names(data), c('Engagement'))] #marche
+#data_acm <- data_marche[, setdiff(names(data), c('Engagement'))] #marche
 #data_acm <- data_course[, setdiff(names(data), c('Engagement'))] #course
-#data_acm <- data[, setdiff(names(data), c('Engagement'))] #all
+data_acm <- data[, setdiff(names(data), c('Engagement'))] #all
 
-# 6.2 Recodage de l'âge en tranches
+# 6.2 Recodage de l'âge 
 data_acm$age <- cut(
   data_acm$age,
   breaks = c(18, 25, 45, 65, Inf),
