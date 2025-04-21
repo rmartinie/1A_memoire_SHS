@@ -22,6 +22,12 @@ Un questionnaire en ligne basé sur la méthode des scénarios a été réalisé
 - `raw_data.csv`: Données brutes du questionnaire
 - `structure_questionnaire.lss`: Structure du questionnaire pour importation sur LimeSurvey
 
-## Prérequis
+## Utilisation
+
+1. **Prérequis** :
 
 - R : `tidyverse`, `dplyr`, `ggplot2`, `rstatix`, `openxlsx`, `FactoMineR`, `factoextra`
+
+2. **Exécuter** :
+
+- `data_process.R` qui télécharge les données depuis GitHub et exécute le script `diff_CM.R` si besoin (penser à décommenter cette partie)
