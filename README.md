@@ -14,13 +14,13 @@ Un questionnaire en ligne basé sur la méthode des scénarios a été réalisé
 ## Fichiers
 ### Scripts
 
-`data_process.R`: Traitement des données, ACM, tests Chi², visualisations
-`diff_CM.R`: Tests statistiques comparant les groupes "marche" et "course"
+- `data_process.R`: Traitement des données, ACM, tests Chi², visualisations
+- `diff_CM.R`: Tests statistiques comparant les groupes "marche" et "course"
 
 ### Données
 
-`raw_data.csv`: Données brutes du questionnaire
-`structure_questionnaire.lss`: Structure du questionnaire pour importation sur LimeSurvey
+- `raw_data.csv`: Données brutes du questionnaire
+- `structure_questionnaire.lss`: Structure du questionnaire pour importation sur LimeSurvey
 
 ## Prérequis
 
